@@ -40,6 +40,6 @@ Which Key - VSpaceCode
 
 7 - Shortcuts: <br>
 
-![neovimVSCodeShortcuts](https://user-images.githubusercontent.com/32718388/132110756-c03e2dad-24ee-4f91-a564-0c88092571eb.png)
+![neovimVSCodeShortcuts](./assets/neovimVSCodeShortcuts.png)
 
 8- Enjoy! <br>
