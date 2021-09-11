@@ -37,6 +37,8 @@ VSCode Neovim - Alexey Svetliakov
 vscode-icons - VSCode Icons Team
 Which Key - VSpaceCode
 Path Intellisense - Christian Kohler
+npm - egamma
+npm Intellisense - Christian Kohler
 ```
 
 7 - Shortcuts: <br>
