@@ -171,25 +171,5 @@
 		"key": "space",
 		"command": "whichkey.show",
 		"when": "neovim.mode != 'insert' && !inputFocus"
-	},
-	{
-		"key": "ctrl+l",
-		"command": "cursorRight",
-		"when": "neovim.mode == 'insert' && textInputFocus"
-	},
-	{
-		"key": "ctrl+k",
-		"command": "cursorUp",
-		"when": "neovim.mode == 'insert' && textInputFocus"
-	},
-	{
-		"key": "ctrl+j",
-		"command": "cursorDown",
-		"when": "neovim.mode == 'insert' && textInputFocus"
-	},
-	{
-		"key": "ctrl+h",
-		"command": "cursorLeft",
-		"when": "neovim.mode == 'insert' && textInputFocus"
 	}
 ]
