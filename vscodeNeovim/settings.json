@@ -1,5 +1,5 @@
 {
-	"files.eol": "\r\n", // End of Line = CRLF \r\n LF \n
+	"files.eol": "auto", // End of Line = CRLF \r\n LF \n
 	"breadcrumbs.enabled": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.columnSelection": false,
@@ -23,6 +23,8 @@
 	"gitlens.hovers.currentLine.over": "line",
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
+	"path-intellisense.extensionOnImport": true,
+	"path-intellisense.showHiddenFiles": true,
 	"prettier.arrowParens": "avoid",
 	"prettier.jsxSingleQuote": true,
 	"prettier.printWidth": 150,
@@ -34,10 +36,10 @@
 	"quokka.startViewStatusBar": false,
 	"sync.gist": "a1ce100493610444f2d35a07c860ce17",
 	"tabnine.experimentalAutoImports": true,
-    "terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"terminal.integrated.fontFamily": "FantasqueSansMono NF, monospace",
-    "terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontSize": 16,
 	"terminal.integrated.profiles.linux": {
 		"zsh (login)": {
 			"path": "zsh",
@@ -1097,5 +1099,5 @@
 			"type": "command",
 			"command": "workbench.action.toggleZenMode"
 		}
-    ]
+	]
 }
