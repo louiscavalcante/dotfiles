@@ -33,7 +33,6 @@
 	"quokka.showOutputOnStart": false,
 	"quokka.startViewStatusBar": false,
 	"sync.gist": "a1ce100493610444f2d35a07c860ce17",
-	"tabnine.experimentalAutoImports": true,
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"terminal.integrated.fontFamily": "FantasqueSansMono NF, monospace",
@@ -1098,6 +1097,5 @@
 			"type": "command",
 			"command": "workbench.action.toggleZenMode"
 		}
-	],
-	"workbench.activityBar.visible": false
+	]
 }
