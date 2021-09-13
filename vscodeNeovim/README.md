@@ -27,6 +27,7 @@ Git History - Don Jayamanne
 GitLens - Eric Amodio
 Live Server - Ritwick Dey
 Markdown All in One - Yu Zhang
+npm - egamma
 Nunjucks Template - eseom
 PasteJSON as Code - quicktype
 Prettier Code formatter - Prettier
@@ -36,7 +37,6 @@ Settings Sync - Shan Khan
 VSCode Neovim - Alexey Svetliakov
 vscode-icons - VSCode Icons Team
 Which Key - VSpaceCode
-npm - egamma
 ```
 
 7 - Shortcuts: <br>
