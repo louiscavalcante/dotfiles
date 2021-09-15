@@ -37,7 +37,8 @@
 	},
 	{
 		"key": "ctrl+shift+i",
-		"command": "editor.action.inspectTMScopes"
+		"command": "editor.action.inspectTMScopes",
+		"when": "editorFocus"
 	},
 	{
 		"key": "ctrl+e",
@@ -171,5 +172,15 @@
 		"key": "space",
 		"command": "whichkey.show",
 		"when": "neovim.mode != 'insert' && !inputFocus"
+	},
+	{
+		"key": "alt+h",
+		"command": "gitlens.showQuickFileHistory",
+		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
+	},
+	{
+		"key": "alt+h",
+		"command": "-gitlens.showQuickFileHistory",
+		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
 	}
 ]
