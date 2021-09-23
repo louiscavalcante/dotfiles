@@ -26,7 +26,7 @@
 	"liveServer.settings.donotVerifyTags": true,
 	"prettier.arrowParens": "avoid",
 	"prettier.jsxSingleQuote": true,
-	"prettier.printWidth": 150,
+	"prettier.printWidth": 100,
 	"prettier.semi": false,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
@@ -237,7 +237,11 @@
 					"key": "y",
 					"name": "Copy buffer to clipboard",
 					"type": "commands",
-					"commands": ["editor.action.selectAll", "editor.action.clipboardCopyAction", "cancelSelection"]
+					"commands": [
+						"editor.action.selectAll",
+						"editor.action.clipboardCopyAction",
+						"cancelSelection"
+					]
 				}
 			]
 		},
