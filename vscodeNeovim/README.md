@@ -25,7 +25,6 @@ ES7 React/Redux/GraphQL/React-Native - dsznajder
 ESLint - Dirk Baeumer
 Git History - Don Jayamanne
 GitLens - Eric Amodio
-IntelliSense for CSS class names in HTML - Zignd
 Live Server - Ritwick Dey
 Markdown All in One - Yu Zhang
 npm - egamma
