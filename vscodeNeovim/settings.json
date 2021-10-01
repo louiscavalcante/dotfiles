@@ -55,7 +55,7 @@
 		}
 	},
 	"typescript.suggest.paths": false,
-	"vsicons.associations.files": [{ "icon": "nunjucks", "extensions": ["njk"], "format": "svg" }],
+	"vsicons.associations.files": [{ "icon": "html", "extensions": ["html"], "format": "svg" }],
 	"workbench.colorTheme": "Anakmun",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.list.automaticKeyboardNavigation": false,
@@ -1109,3 +1109,4 @@
 		}
 	]
 }
+
