@@ -14,12 +14,11 @@
 	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.tabSize": 4,
-	"editor.renderIndentGuides": true,
 	"emmet.includeLanguages": {
 		"njk": "html"
 	},
 	"files.associations": {
-		"*.html": "njk"
+		"*.html": "html"
 	},
 	"files.autoSave": "afterDelay",
 	"gitlens.currentLine.enabled": false,
