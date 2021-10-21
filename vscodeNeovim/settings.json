@@ -17,9 +17,6 @@
 	"emmet.includeLanguages": {
 		"njk": "html"
 	},
-	"files.associations": {
-		"*.html": "njk"
-	},
 	"files.autoSave": "afterDelay",
 	"gitlens.currentLine.enabled": false,
 	"gitlens.hovers.currentLine.over": "line",
