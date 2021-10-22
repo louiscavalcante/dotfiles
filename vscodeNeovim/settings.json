@@ -15,7 +15,7 @@
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.tabSize": 4,
 	"emmet.includeLanguages": {
-		"njk": "html"
+		"nunjucks": "html"
 	},
 	"files.autoSave": "afterDelay",
 	"gitlens.currentLine.enabled": false,
