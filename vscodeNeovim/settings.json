@@ -52,7 +52,7 @@
 	},
 	"typescript.suggest.paths": false,
 	"vsicons.associations.files": [{ "icon": "html", "extensions": ["html"], "format": "svg" }],
-	"workbench.colorTheme": "Anakmun",
+	"workbench.colorTheme": "Anakmun Theme",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.list.automaticKeyboardNavigation": false,
 	"workbench.startupEditor": "none",
