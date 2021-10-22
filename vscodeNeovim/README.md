@@ -15,6 +15,7 @@
 
 6 - Install these Plugins:<br>
 ```
+Anakmun Theme - Luiz Cavalcante
 Auto Rename Tag - Jun Han
 Better Comments - Aaron Bond
 Bracket Pair Colorizer 2 - CoenraadS
