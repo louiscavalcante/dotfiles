@@ -1,4 +1,7 @@
 {
+	"workbench.colorCustomizations": {
+		"[Anakmun Theme]": {}
+	},
 	"files.eol": "auto", // End of Line = CRLF \r\n LF \n
 	"breadcrumbs.enabled": true,
 	"diffEditor.ignoreTrimWhitespace": false,
