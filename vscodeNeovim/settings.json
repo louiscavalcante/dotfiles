@@ -26,7 +26,7 @@
 	"gitlens.hovers.currentLine.over": "line",
 	"gitlens.statusBar.enabled": false,
 	"html.format.wrapLineLength": 100,
-    "javascript.updateImportsOnFileMove.enabled": "never",
+	"javascript.updateImportsOnFileMove.enabled": "never",
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
 	"prettier.arrowParens": "avoid",
@@ -1108,6 +1108,5 @@
 			"type": "command",
 			"command": "workbench.action.toggleZenMode"
 		}
-    ],
+	]
 }
-
