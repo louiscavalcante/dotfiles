@@ -12,6 +12,7 @@
 	"editor.formatOnType": true,
 	"editor.formatOnPaste": true,
 	"editor.inlineSuggest.enabled": true,
+	"editor.insertSpaces": false,
 	"editor.minimap.enabled": false,
 	"editor.parameterHints.enabled": true,
 	"editor.renderControlCharacters": false,
