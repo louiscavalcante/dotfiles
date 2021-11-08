@@ -31,9 +31,24 @@
 		"when": "editorTextFocus && !editorReadonly"
 	},
 	{
-		"key": "ctrl+shift+q",
-		"command": "quokka.makeQuokkaFromExistingFile",
-		"when": "!quokka.isLiveShareClient && !terminalFocus"
+		"key": "alt+h",
+		"command": "gitlens.showQuickFileHistory",
+		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
+	},
+	{
+		"key": "alt+h",
+		"command": "-gitlens.showQuickFileHistory",
+		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
+	},
+	{
+		"key": "escape",
+		"command": "editor.action.inlineSuggest.hide",
+		"when": "editorTextFocus && inlineSuggestionVisible"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "github.copilot.generate",
+		"when": "editorTextFocus"
 	},
 	{
 		"key": "ctrl+shift+i",
@@ -43,6 +58,11 @@
 	{
 		"key": "ctrl+e",
 		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+shift+q",
+		"command": "quokka.makeQuokkaFromExistingFile",
+		"when": "!quokka.isLiveShareClient && !terminalFocus"
 	},
 	{
 		"key": "r",
@@ -172,15 +192,6 @@
 		"key": "space",
 		"command": "whichkey.show",
 		"when": "neovim.mode != 'insert' && !inputFocus"
-	},
-	{
-		"key": "alt+h",
-		"command": "gitlens.showQuickFileHistory",
-		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
-	},
-	{
-		"key": "alt+h",
-		"command": "-gitlens.showQuickFileHistory",
-		"when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
 	}
 ]
+

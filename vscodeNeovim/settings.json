@@ -23,6 +23,13 @@
 		"nunjucks": "html"
 	},
 	"files.autoSave": "afterDelay",
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"css": false
+	},
 	"gitlens.currentLine.enabled": false,
 	"gitlens.hovers.currentLine.over": "line",
 	"gitlens.statusBar.enabled": false,
@@ -1111,3 +1118,4 @@
 		}
 	]
 }
+
