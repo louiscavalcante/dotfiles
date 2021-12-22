@@ -5,6 +5,8 @@
 	"files.eol": "auto", // End of Line = CRLF \r\n LF \n
 	"breadcrumbs.enabled": true,
 	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
 	"editor.columnSelection": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
@@ -1118,4 +1120,3 @@
 		}
 	]
 }
-
