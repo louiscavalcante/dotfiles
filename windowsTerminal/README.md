@@ -59,8 +59,9 @@ https://chocolatey.org<br>
 },
 ```
 
-- In terminal, look for `Settings` and click at `Open JSON file` file. Inside the `.json` file that just opened, look for a line with the following code:<br>
-`"source": "Windows.Terminal.PowershellCore",` Now add the following lines bellow the line that contains the `"source":` mentioned before<br>
+- In terminal, look for `Settings` and click at `Open JSON file` file. Inside the `.json` file, look for a line with the following code:<br>
+`"source": "Windows.Terminal.PowershellCore",`<br>
+Now add the following lines bellow the line that contains the `"source":` mentioned before<br>
 
 ```
 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo -NoExit",
