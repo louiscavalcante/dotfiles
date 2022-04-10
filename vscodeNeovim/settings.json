@@ -25,6 +25,7 @@
 		"nunjucks": "html"
 	},
 	"files.autoSave": "afterDelay",
+	"keyboard.dispatch": "keyCode",
 	"github.copilot.enable": {
 		"*": true,
 		"yaml": false,
@@ -67,13 +68,11 @@
 	},
 	"typescript.suggest.paths": false,
 	"vsicons.associations.files": [{ "icon": "html", "extensions": ["html"], "format": "svg" }],
+	"window.titleBarStyle": "custom",
 	"workbench.colorTheme": "Anakmun Theme",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.list.automaticKeyboardNavigation": false,
 	"workbench.startupEditor": "none",
-	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter.notebook.ipynb"
-	},
 	"vscode-neovim.highlightGroups.ignoreHighlights": [
 		"SpecialKey",
 		"EndOfBuffer",
@@ -151,8 +150,8 @@
 		"Folded",
 		"FoldColumn"
 	],
-	"vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-	"vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/utils/lv-vscode/init.vim",
+	"vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+	"vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
 	"vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
 	"vscode-neovim.neovimInitVimPaths.win32": "$HOME\\.vscodeinit.vim",
 	"whichkey.sortOrder": "alphabetically",
@@ -1120,3 +1119,4 @@
 		}
 	]
 }
+
