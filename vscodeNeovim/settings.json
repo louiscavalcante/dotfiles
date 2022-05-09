@@ -10,25 +10,27 @@
 	"editor.columnSelection": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
+	"editor.fontSize": 15,
 	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
 	"editor.formatOnPaste": true,
 	"editor.inlineSuggest.enabled": true,
-	"editor.insertSpaces": false,
+	"editor.insertSpaces": true,
 	"editor.minimap.enabled": false,
 	"editor.parameterHints.enabled": true,
-	"editor.renderControlCharacters": false,
+	"editor.renderControlCharacters": true,
 	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.tabSize": 4,
+	"editor.tabSize": 2,
 	"emmet.includeLanguages": {
 		"nunjucks": "html"
 	},
 	"files.autoSave": "afterDelay",
+	"json.maxItemsComputed": 999999,
 	"keyboard.dispatch": "keyCode",
 	"github.copilot.enable": {
 		"*": true,
-		"yaml": false,
+		"yaml": true,
 		"plaintext": false,
 		"markdown": false,
 		"css": false
@@ -40,9 +42,10 @@
 	"javascript.updateImportsOnFileMove.enabled": "never",
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
+	"markdown.extension.preview.autoShowPreviewToSide": true,
 	"prettier.arrowParens": "avoid",
 	"prettier.jsxSingleQuote": true,
-	"prettier.printWidth": 100,
+	"prettier.printWidth": 200,
 	"prettier.semi": false,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
@@ -53,7 +56,7 @@
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"terminal.integrated.fontFamily": "FantasqueSansMono NF, monospace",
-	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontSize": 15,
 	"terminal.integrated.profiles.linux": {
 		"zsh (login)": {
 			"path": "zsh",
@@ -252,11 +255,7 @@
 					"key": "y",
 					"name": "Copy buffer to clipboard",
 					"type": "commands",
-					"commands": [
-						"editor.action.selectAll",
-						"editor.action.clipboardCopyAction",
-						"cancelSelection"
-					]
+					"commands": ["editor.action.selectAll", "editor.action.clipboardCopyAction", "cancelSelection"]
 				}
 			]
 		},
@@ -1119,4 +1118,3 @@
 		}
 	]
 }
-
