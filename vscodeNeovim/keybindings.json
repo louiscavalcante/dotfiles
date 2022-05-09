@@ -194,4 +194,3 @@
 		"when": "neovim.mode != 'insert' && !inputFocus"
 	}
 ]
-
