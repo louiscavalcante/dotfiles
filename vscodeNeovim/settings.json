@@ -2,14 +2,14 @@
 	"workbench.colorCustomizations": {
 		"[Anakmun Theme]": {}
 	},
-	"files.eol": "auto", // End of Line = CRLF \r\n LF \n
+	"files.eol": "auto", // End of Line | CRLF \r\n | LF \n
 	"breadcrumbs.enabled": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
 	"editor.columnSelection": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.detectIndentation": false,
+	"editor.detectIndentation": true,
 	"editor.fontSize": 15,
 	"editor.formatOnSave": true,
 	"editor.formatOnType": true,
@@ -21,17 +21,17 @@
 	"editor.renderControlCharacters": true,
 	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 	"emmet.includeLanguages": {
 		"nunjucks": "html"
 	},
-	"files.autoSave": "afterDelay",
-	"json.maxItemsComputed": 999999,
+	"files.autoSave": "afterDelay", // afterDelay
+	"json.maxItemsComputed": 100000,
 	"keyboard.dispatch": "keyCode",
 	"github.copilot.enable": {
 		"*": true,
 		"yaml": true,
-		"plaintext": false,
+		"plaintext": true,
 		"markdown": false,
 		"css": false
 	},
@@ -45,7 +45,7 @@
 	"markdown.extension.preview.autoShowPreviewToSide": true,
 	"prettier.arrowParens": "avoid",
 	"prettier.jsxSingleQuote": true,
-	"prettier.printWidth": 200,
+	"prettier.printWidth": 150,
 	"prettier.semi": false,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 4,
@@ -1116,5 +1116,9 @@
 			"type": "command",
 			"command": "workbench.action.toggleZenMode"
 		}
-	]
+	],
+	"gitlens.advanced.messages": {
+		"suppressCreatePullRequestPrompt": true
+	}
 }
+
